@@ -36,9 +36,8 @@ This tool is useful for:
 
 ## Installation
 
-1.  **Clone the repository (or create the files locally):**
+1.  **Clone the repository:**
     ```bash
-    # If cloning:
     # git clone https://github.com/AlexandrosLiaskos/JsonAnalysis.git 
     # cd JsonAnalysis
     ```
