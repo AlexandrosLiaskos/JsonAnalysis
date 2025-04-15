@@ -40,7 +40,7 @@ This tool is useful for:
     ```bash
     # If cloning:
     # git clone https://github.com/AlexandrosLiaskos/JsonAnalysis.git 
-    # cd jsonanalysis
+    # cd JsonAnalysis
     ```
 
 2.  **Install the package:**
