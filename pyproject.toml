@@ -1,0 +1,48 @@
+# ---- File: pyproject.toml ----
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonanalyzer"
+version = "1.0.0"
+description = "A JSON file structure and statistics analyzer."
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Alexandros Liaskos", email = "alexliaskosga@gmail.com" },
+]
+keywords = ["json", "analysis", "structure", "statistics", "cli", "parser", "validation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+
+dependencies = [
+    # No external dependencies required for core JSON analysis
+]
+
+[project.urls]
+Homepage = "https://github.com/AlexandrosLiaskos/JsonAnalysis"
+Repository = "https://github.com/AlexandrosLiaskos/JsonAnalysis"
+
+[project.optional-dependencies]
+clipboard = ["pyperclip>=1.8"]
+
+[project.scripts]
+jsonanalyzer = "jsonanalyzer.cli:main"
